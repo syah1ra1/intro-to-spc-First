@@ -657,28 +657,4 @@ Key observations:
 :::
 ::::
 
-
 ----
-
-:::: {.columns}
-::: {.column width="50%"}
-### Math Scores Distribution
-
-This histogram shows the frequency distribution of Math scores in our dataset.
-
-Key observations:
-- Most students score between 400 and 600.
-- There's a noticeable spread in scores, indicating varying academic performance.
-
-:::
-
-::: {.column width="50%"}
-<iframe
-  data-src='media/plots/math_scores_histogram.html'
-  width='100%'
-  height='500px'
-  style='border:none;'
-  scrolling='no'>
-</iframe>
-:::
-::::
