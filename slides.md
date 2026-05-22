@@ -458,3 +458,178 @@ This scatterplot visualizes the relationship between height and weight, with poi
 </iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Scores Distribution
+
+This histogram shows the frequency distribution of Math scores in our dataset.
+
+Key observations:
+- Most students score between 400 and 600.
+- There's a noticeable spread in scores, indicating varying academic performance.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/math_scores_histogram.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Scores by Gender
+
+This boxplot illustrates the distribution of Math scores separated by gender.
+
+**Observations:**
+- The median Math scores appear similar for both genders.
+- There might be slight differences in the spread or outliers, suggesting variations in score consistency.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/math_gender_boxplot.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Distribution of Heights
+
+This histogram visualizes the distribution of student heights.
+
+**Observations:**
+- The distribution appears to be roughly normal, centered around a particular height range.
+- There's a spread indicating natural variation in student heights.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/height_histogram.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Distribution of Age
+
+This histogram shows the frequency distribution of student ages.
+
+**Observations:**
+- The ages are distributed between 12 and 18 years old.
+- The most frequent age appears to be around 14-15 years.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/age_histogram.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Average Math Score by Sex
+
+This bar chart compares the average Math scores between different sexes.
+
+**Observations:**
+- The average Math scores are quite similar for both males and females.
+- There might be slight differences, but they are not very pronounced in this dataset.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/avg_math_by_sex_bar.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Weight Distribution by Sex
+
+This boxplot illustrates the distribution of student weights, grouped by sex.
+
+**Observations:**
+- There are clear differences in median weight between males and females.
+- The spread of weights also varies between the groups.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/weight_by_sex_boxplot.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Height vs. Weight, Colored by Sex
+
+This scatterplot visualizes the relationship between height and weight, with points colored by sex.
+
+**Observations:**
+- A positive correlation between height and weight is observed.
+- There are distinct clusters for males and females, indicating differences in height-weight distributions between sexes.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/height_weight_scatterplot.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::
