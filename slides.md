@@ -283,3 +283,78 @@ This histogram visualizes the distribution of student heights.
 </iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Scores Distribution
+
+This histogram shows the frequency distribution of Math scores in our dataset.
+
+Key observations:
+- Most students score between 400 and 600.
+- There's a noticeable spread in scores, indicating varying academic performance.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/math_scores_histogram.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Scores by Gender
+
+This boxplot illustrates the distribution of Math scores separated by gender.
+
+**Observations:**
+- The median Math scores appear similar for both genders.
+- There might be slight differences in the spread or outliers, suggesting variations in score consistency.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/math_gender_boxplot.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Distribution of Heights
+
+This histogram visualizes the distribution of student heights.
+
+**Observations:**
+- The distribution appears to be roughly normal, centered around a particular height range.
+- There's a spread indicating natural variation in student heights.
+
+:::
+
+::: {.column width="50%"}
+<iframe
+  data-src='media/plots/height_histogram.html'
+  width='100%'
+  height='500px'
+  style='border:none;'
+  scrolling='no'>
+</iframe>
+:::
+::::

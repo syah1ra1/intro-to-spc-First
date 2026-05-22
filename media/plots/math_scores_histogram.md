@@ -18,6 +18,6 @@ p <- ggplot(bigclass, aes(x = Math)) +
 # Save the plot as an HTML widget
 htmlwidgets::saveWidget(
   plotly::ggplotly(p), 
-  file = "media/plots/math_scores_histogram.html",
+  file = file.path("media", "plots", "math_scores_histogram.html"),
   selfcontained = TRUE
 )
