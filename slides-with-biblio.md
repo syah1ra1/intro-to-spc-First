@@ -808,3 +808,7 @@ Key observations:
 </iframe>
 :::
 ::::
+
+---
+# Bibliography
+<div id="refs"></div>
